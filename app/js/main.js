@@ -28,6 +28,7 @@ $(document).ready(function() {
         }
         else{
             $(".personal-area__menu").addClass("active");
+            $(".personal-area__menu").addClass("active");
         }
 	});
 
@@ -40,9 +41,11 @@ $(document).ready(function() {
         $('#burger').toggleClass('active-sandwich');
         if($('#burger').hasClass('active-sandwich')){
             $('.nav-menu__list').addClass('active');
+            $("body").addClass("modal-open")
         }
         else{
             $('.nav-menu__list').removeClass('active');
+            $("body").removeClass("modal-open")
         }
     });
 });

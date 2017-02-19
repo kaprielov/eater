@@ -626,8 +626,11 @@ h1, h2, h3{
 
 
 
-
-
+.modal-open {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
 .nav_button {
   width: 22px;
   height: 16px;
