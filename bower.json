@@ -1,0 +1,25 @@
+{
+  "name": "pmi2",
+  "description": "kaprielov develop",
+  "main": "index.js",
+  "authors": [
+    "kaprielov"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize.css": "*",
+    "jquery": "2.*",
+    "fancybox": "^2.1.6",
+    "jquery-ui": "jqueryui#^1.12.1",
+    "jquery.maskedinput": "^1.4.1"
+  }
+}
